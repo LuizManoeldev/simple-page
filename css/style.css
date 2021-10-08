@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    font-family: 'Roboto';
+    font-weight: 100;
+    overflow-x: hidden;
+    
+}
+
+ul {
+    padding: 0% !important;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+.logo{
+    padding: px;
+    margin-left: 100px;
+    float: left;
+    
+}
+
+.logo img {
+    width: 200px; 
+    height: 60px;
+}
+
+.redes-sociais ul li {
+    display: inline-block;
+    float: left;
+    margin-left: 50px;
+    
+
+}
+
+.redes-sociais ul li :hover {
+    background-color: rgba(202, 73, 202, 0.76);
+
+}
+
+
+.redes-sociais  {
+    margin-right: 100px;
+    float: right;
+}
+
+.redes-sociais img {
+    width: 30px;
+    height: 30px;
+}
+
+.header-2 {
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    padding: 12px;
+
+}
+
+.menu_urls {
+    border-bottom: 3px solid #efefef;
+    height: 80px;
+
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    
+}
+
+.menu ul li a  {
+    display: inline-block;
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 70px;
+    height: 50px;
+
+    
+}
+
+.menu ul li :hover{
+    color: rgba(32, 32, 192, 0.637);
+    border-bottom: 3px solid rgba(32, 32, 192, 0.637);;
+}
+.menu {
+    margin-left: 100px;
+    float: left;
+
+}
+
+.busca {
+    float: right;
+    margin-right: 139px;
+    text-align:center;
+}
+
+.busca input {
+    margin-top: 3px;
+    height: 30px;
+    width: 190px;
+    padding: 7px;
+    background-image: url("../img/loupe.png");
+    background-size: 20px;
+    background-repeat:no-repeat ;
+    background-position-x: 95% ;
+    background-position-y: 50% ;
+    border: 1px solid #d6d6d6;
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+   
+}
+
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 200px;
+    height: 94px;
+    background-color: transparent;
+    background-image: url(../img/voltar.png);
+    top:45%;
+    left:3%; 
+    z-index:9;
+    position:absolute;
+}
+
+
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 200px;
+    height: 94px;
+    background-color: transparent;
+    background-image: url(../img/avançar.png);
+    top:45%;
+    right:3%;
+    z-index:9;
+    position:absolute;
+}
+
+.slick-dots li button{
+    width: 20px;
+    height: 20px;
+    font-size: 0px;
+    border: 3px solid gray;
+    border-radius: 50%;
+}
+
+ul.slick-dots li{
+    display: inline-block;
+}
+
+ul.slick-dots li.slick-active button{
+    background-color: rgba(202, 73, 202, 0.76) ;
+
+}
+
+ul.slick-dots {
+    position:absolute;
+    z-index:8;
+    top:90%;
+    left:47.5%
+}
+
+.slider-principal {
+    overflow: hidden;
+}
+
+.titulo {
+    font-size: 62px;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    height: 100px;
+    color: rgb(63, 61, 61);
+    background-color: rgb(128, 128, 128, 0.555);
+    margin-top: 0
+
+}
+
+.herois {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+
+
+}
+
+.herois section {
+    width: 40%;
+}
+
+.herois p  {
+    font-size: 30px;
+    font-family: 'Lato';
+    background-color: rgba(128, 128, 128, 0.500);
+}
+.herois img:hover  {
+    background-color: rgb(63, 63, 63);
+}
+
+.herois p:hover {
+    background-color:rgb(63, 63, 63);
+    color:white;
+}
+
+footer {
+    width: 100%;
+    height: 350px;
+
+    background-color: #252323;
+}
+
+footer h1 {
+    font-size:30px;
+    font-family: 'Bebas Neue';
+    color:#fefefe;
+    display:flex;
+    justify-content:center;
+    margin-top:10px
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+
+}
+
+main.contatos {
+    display:flex;
+    flex-direction:column;
+    width:500px;
+    justify-content:center;
+    background-color: #191818;
+    border-radius:20px;
+}
+
+div.itens{
+    height:50px;
+    width:400px;
+    margin-left:20px;
+    margin-top:10px;
+ 
+    
+}
+
+main.contatos a{
+    color:#fefefe;
+    font-family:'Bebas Neue';
+    margin-left: 40px;
+    
+}
+
+@media only screen and (min-width:200px) and (max-width:1200px){ 
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0%;
+        font-family: 'Roboto';
+        font-weight: 100;
+        overflow-x: hidden;
+        
+    }
+    
+    ul {
+        padding: 0% !important;
+    }
+    
+    .menu-principal {
+        width: 100%;
+        background-color: #252323;
+        height: 60px;
+    
+    }
+    
+    main {
+        margin: 0 auto;
+        width: 100%;
+        position: relative;
+    }
+    
+    .logo{
+        padding: 0px;
+        margin-left: 100px;
+        float: left;
+        
+    }
+    
+    .logo img {
+        width: 200px; 
+        height: 60px;
+    }
+    
+    .redes-sociais ul li {
+        display:flex;
+        flex-direction: row;
+        
+    
+    }
+    
+    .redes-sociais ul li :hover {
+        background-color: rgba(202, 73, 202, 0.76);
+    
+    }
+    
+    
+    .redes-sociais  {
+        margin-right: 55px;
+        float: right;
+        
+    }
+    
+    .redes-sociais img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .header-2 {
+        background-color: white;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: auto;
+       
+
+    
+    }
+    
+    .menu_urls {
+        border-bottom: 3px solid #efefef;
+        height: 80px;
+    
+    }
+    
+    .menu ul li {
+        display: inline-block;
+        color: #8b8b8b;
+        
+    }
+    
+    .menu ul li a  {
+        display: inline-block;
+        color: #8b8b8b;
+        text-decoration: none;
+        font-size: 15px;
+        margin-left: 10px;
+        height: 50px;
+    
+}
+    
+    .menu ul li :hover{
+        color: rgba(32, 32, 192, 0.637);
+        border-bottom: 3px solid rgba(32, 32, 192, 0.637);;
+    }
+    .menu {
+        margin-left: -16px;
+        float: left;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .busca {
+        float: right;
+        margin-right: 0px;
+        text-align:center;
+    }
+    
+    .busca input {
+        margin-top: 3px;
+        height: 10px;
+        width: 50px;
+        padding: 7px;
+        background:transparent;
+        background-repeat:no-repeat ;
+        background-position-x: 95% ;
+        background-position-y: 50% ;
+        border: 1px solid #d6d6d6;
+    }
+    .col-100 {
+        width: 100%;
+        float: left;
+        position: relative;
+       
+    }
+    
+    button.slick-prev{
+        font-size: 0px;
+        border: none;
+        width: 00px;
+        height: 0px;
+        background-color: transparent;
+        background-image: url(../img/voltar.png);
+        top:45%;
+        left:3%; 
+        z-index:9;
+        position:absolute;
+    }
+    
+    
+    button.slick-next{
+        font-size: 0px;
+        border: none;
+        width: 0px;
+        height: 0px;
+        background-color: transparent;
+        background-image: url(../img/avançar.png);
+        top:45%;
+        right:3%;
+        z-index:9;
+        position:absolute;
+    }
+    
+    .slick-dots li button{
+        width: 3px;
+        height: 15px;
+        font-size: 0px;
+        border: 3px solid gray;
+        border-radius: 50%;
+    }
+    
+    ul.slick-dots li{
+        display: inline-block;
+    }
+    
+    ul.slick-dots li.slick-active button{
+        background-color: rgba(202, 73, 202, 0.76) ;
+    
+    }
+    
+    ul.slick-dots {
+        position:absolute;
+        z-index: 9;
+        top:70%;
+        left:39%
+    }
+    
+    .slider-principal {
+        overflow: hidden;
+    
+    }
+    
+    .titulo {
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Bebas Neue';
+        height: 40px;
+        color: rgb(63, 61, 61);
+        background-color: rgb(128, 128, 128, 0.555);
+        margin-top: 0px;
+    
+    }
+    
+    .herois img {
+        width: 100px;
+        height: 250px;
+    }
+    .herois {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    
+    
+    }
+    
+    .herois section {
+        width: 40%;
+    }
+    
+    .herois p  {
+        font-size: 15px;
+        font-family: 'Lato';
+        background-color: white;
+        font-weight:1000;
+    }
+
+    .herois img:hover{
+        background-color: white;
+    }
+    
+    .herois p:hover{
+        background-color: black;
+    }
+    
+    footer {
+        width: 100%;
+        height: 300px;
+    
+        background-color: #252323;
+    }
+    
+    footer h1 {
+        font-size:30px;
+        font-family: 'Bebas Neue';
+        color:#fefefe;
+        display:flex;
+        justify-content:center;
+        margin-top:10px
+    }
+    
+    footer img{
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+    
+    }
+    
+    main.contatos {
+        display:flex;
+        flex-direction:column;
+        width:300px;
+        justify-content:center;
+        background-color: #191818;
+        border-radius:20px;
+    }
+    
+    div.itens{
+        height:50px;
+        width:400px;
+        margin-left:20px;
+        margin-top:10px;
+     
+        
+    }
+    
+    main.contatos a{
+        color:#fefefe;
+        font-family:'Bebas Neue';
+        margin-left: 40px;
+        
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+}
